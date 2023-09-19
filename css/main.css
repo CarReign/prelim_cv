@@ -126,6 +126,16 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
     text-rendering: optimizeLegibility;
 }
 
+.h07 {
+    font-family: "montserrat-medium", sans-serif;
+    color: #0D0A0B;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 3rem;
+    padding-top: -4px;
+}
+
 h1, .h01, h2, .h02, h3, .h03, h4, .h04 {
     margin-top: 6rem;
     margin-bottom: 1.8rem;
@@ -3036,13 +3046,21 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # contact - (_site-layout.scss)
- *
+ * # contact - (_site-layout.scss)*/
+
+
+h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+p { margin: 0 0 16px 0; }
+dd { width: 600px; float: right; }
+dd.clear { float: none; margin: 0; height: 15px; }
+
+ /*
  * ------------------------------------------------------------------- */
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/testimonial-bg.jpg");
+    background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem; 
